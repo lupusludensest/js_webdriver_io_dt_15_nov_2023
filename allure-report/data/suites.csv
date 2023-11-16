@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Nov 15 19:23:14 CST 2023","Wed Nov 15 19:23:14 CST 2023","7","","6. Validate ""Fork me on GitHub"" picture","","","","Validate ""Fork me on GitHub"" picture",""
-"passed","Wed Nov 15 19:23:14 CST 2023","Wed Nov 15 19:23:14 CST 2023","62","","2. Validate ""Secure Area"" text","","","","Validate ""Secure Area"" text",""
-"passed","Wed Nov 15 19:23:14 CST 2023","Wed Nov 15 19:23:14 CST 2023","25","","4. Validate ""Logout"" btn here","","","","Validate ""Logout"" btn here",""
-"passed","Wed Nov 15 19:23:14 CST 2023","Wed Nov 15 19:23:14 CST 2023","30","","3. Validate ""Welcome to the Secure Area"" text","","","","Validate ""Welcome to the Secure Area"" text",""
-"passed","Wed Nov 15 19:23:13 CST 2023","Wed Nov 15 19:23:14 CST 2023","1227","","1. My Login application","","","","should login and validate texts",""
-"passed","Wed Nov 15 19:23:14 CST 2023","Wed Nov 15 19:23:14 CST 2023","25","","5. Validate ""Powered by Elemental Selenium"" text","","","","Validate ""Powered by Elemental Selenium"" text",""
-"passed","Wed Nov 15 19:23:14 CST 2023","Wed Nov 15 19:23:15 CST 2023","784","","7. Validate ""https://the-internet.herokuapp.com/secure"" is active","","","","Validate ""https://the-internet.herokuapp.com/secure"" is active",""
