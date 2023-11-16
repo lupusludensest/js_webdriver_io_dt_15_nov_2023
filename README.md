@@ -24,8 +24,8 @@
         const res = await axios.get('https://the-internet.herokuapp.com/secure');
         expect(res.status).toEqual(200)
 # Allure
-# allure generate allure-results --clean
-# allure open
+## allure generate allure-results --clean
+## allure open
 # in framework is upgraded:
 ## in wdio.conf.js there is a code which helps making screenshot if step failed    
 reporters: [['allure', {
