@@ -1,0 +1,71 @@
+[ {
+  "uid" : "4c06ce39ec89de5d",
+  "name" : "Validate \"Fork me on GitHub\" picture",
+  "time" : {
+    "start" : 1700097794491,
+    "stop" : 1700097794498,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90d45257f7777161",
+  "name" : "Validate \"Secure Area\" text",
+  "time" : {
+    "start" : 1700097794330,
+    "stop" : 1700097794392,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e0556aa6bb5b894",
+  "name" : "Validate \"Logout\" btn here",
+  "time" : {
+    "start" : 1700097794428,
+    "stop" : 1700097794453,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4e0b4c781c6a502",
+  "name" : "Validate \"Welcome to the Secure Area\" text",
+  "time" : {
+    "start" : 1700097794395,
+    "stop" : 1700097794425,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8321d56414d8d3e2",
+  "name" : "should login and validate texts",
+  "time" : {
+    "start" : 1700097793096,
+    "stop" : 1700097794323,
+    "duration" : 1227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8a17d5e8cb6da9d",
+  "name" : "Validate \"Powered by Elemental Selenium\" text",
+  "time" : {
+    "start" : 1700097794457,
+    "stop" : 1700097794482,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a367d925825ec4df",
+  "name" : "Validate \"https://the-internet.herokuapp.com/secure\" is active",
+  "time" : {
+    "start" : 1700097794506,
+    "stop" : 1700097795290,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,52 @@
+{
+  "uid" : "c4e0b4c781c6a502",
+  "name" : "Validate \"Welcome to the Secure Area\" text",
+  "historyId" : "180fb64a317256e019af04e59cbe3258",
+  "time" : {
+    "start" : 1700097794395,
+    "stop" : 1700097794425,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "package",
+    "value" : "E:.Gurov_SSD_256.IT.Testing.Automation_08_09_2019.js_webdriver_io_dt_15_nov_2023.test.specs.test.e2e.js"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "3. Validate \"Welcome to the Secure Area\" text"
+  }, {
+    "name" : "feature",
+    "value" : "3. Validate \"Welcome to the Secure Area\" text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-119.0.6045.124"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4e0b4c781c6a502.json",
+  "parameterValues" : [ "chrome-119.0.6045.124" ]
+}

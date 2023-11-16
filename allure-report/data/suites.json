@@ -1,0 +1,124 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "1. My Login application",
+    "children" : [ {
+      "name" : "should login and validate texts",
+      "uid" : "8321d56414d8d3e2",
+      "parentUid" : "24d3a022526b77cad3095b04c1695206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700097793096,
+        "stop" : 1700097794323,
+        "duration" : 1227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-119.0.6045.124" ]
+    } ],
+    "uid" : "24d3a022526b77cad3095b04c1695206"
+  }, {
+    "name" : "2. Validate \"Secure Area\" text",
+    "children" : [ {
+      "name" : "Validate \"Secure Area\" text",
+      "uid" : "90d45257f7777161",
+      "parentUid" : "bfe9cf673236aed7b62ffa0e03c36688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700097794330,
+        "stop" : 1700097794392,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-119.0.6045.124" ]
+    } ],
+    "uid" : "bfe9cf673236aed7b62ffa0e03c36688"
+  }, {
+    "name" : "3. Validate \"Welcome to the Secure Area\" text",
+    "children" : [ {
+      "name" : "Validate \"Welcome to the Secure Area\" text",
+      "uid" : "c4e0b4c781c6a502",
+      "parentUid" : "6cff90ae86b0f502d2eb7f1ef9b3c9c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700097794395,
+        "stop" : 1700097794425,
+        "duration" : 30
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-119.0.6045.124" ]
+    } ],
+    "uid" : "6cff90ae86b0f502d2eb7f1ef9b3c9c7"
+  }, {
+    "name" : "4. Validate \"Logout\" btn here",
+    "children" : [ {
+      "name" : "Validate \"Logout\" btn here",
+      "uid" : "6e0556aa6bb5b894",
+      "parentUid" : "0b76e45949eaf7c13815d147902b7439",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700097794428,
+        "stop" : 1700097794453,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-119.0.6045.124" ]
+    } ],
+    "uid" : "0b76e45949eaf7c13815d147902b7439"
+  }, {
+    "name" : "5. Validate \"Powered by Elemental Selenium\" text",
+    "children" : [ {
+      "name" : "Validate \"Powered by Elemental Selenium\" text",
+      "uid" : "d8a17d5e8cb6da9d",
+      "parentUid" : "384055087ac532b1b0fd7d87eec9a902",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700097794457,
+        "stop" : 1700097794482,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-119.0.6045.124" ]
+    } ],
+    "uid" : "384055087ac532b1b0fd7d87eec9a902"
+  }, {
+    "name" : "6. Validate \"Fork me on GitHub\" picture",
+    "children" : [ {
+      "name" : "Validate \"Fork me on GitHub\" picture",
+      "uid" : "4c06ce39ec89de5d",
+      "parentUid" : "7b4bcf8476d703be0c957ed7df871a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700097794491,
+        "stop" : 1700097794498,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-119.0.6045.124" ]
+    } ],
+    "uid" : "7b4bcf8476d703be0c957ed7df871a9b"
+  }, {
+    "name" : "7. Validate \"https://the-internet.herokuapp.com/secure\" is active",
+    "children" : [ {
+      "name" : "Validate \"https://the-internet.herokuapp.com/secure\" is active",
+      "uid" : "a367d925825ec4df",
+      "parentUid" : "014c8340b9fccc3315daed5fe6c95557",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700097794506,
+        "stop" : 1700097795290,
+        "duration" : 784
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-119.0.6045.124" ]
+    } ],
+    "uid" : "014c8340b9fccc3315daed5fe6c95557"
+  } ]
+}
