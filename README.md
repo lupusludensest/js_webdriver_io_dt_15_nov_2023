@@ -17,7 +17,7 @@
 # getText()
 # getPageSource()
 # axios.get('URL') Axios has to be installed: npm install axios
-## in test.e2e.js there is a code:
+## in testA_login_positive.e2e.js there is a code:
 ##         // Validate "https://the-internet.herokuapp.com/secure" is active
         const axios = require('axios');
 
