@@ -1,5 +1,4 @@
 # js_webdriver_io_dt_15_nov_2023
-js_webdriver_io_dt_15_nov_2023
 
 # install node.js
 # node --version
@@ -18,7 +17,29 @@ js_webdriver_io_dt_15_nov_2023
 # getText()
 # getPageSource()
 # axios.get('URL') Axios has to be installed: npm install axios
+## in test.e2e.js there is a code:
+##         // Validate "https://the-internet.herokuapp.com/secure" is active
+        const axios = require('axios');
+
+        const res = await axios.get('https://the-internet.herokuapp.com/secure');
+        expect(res.status).toEqual(200)
 # Allure
-# allure generate results --clean
+# allure generate allure-results --clean
 # allure open
+# in framework is upgraded:
+## in wdio.conf.js there is a code which helps making screenshot if step failed    
+reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false, # <- here
+    }]],
+## in wdio.conf.js there is a code making screenshot if step failed
+afterTest: function(test, context, { error, result, duration, passed, retries }) {
+
+        if (error) {
+            browser.takeScreenshot();
+        }
+    }
+# npm ls --prod --depth=0 > requirements.txt
+
 
