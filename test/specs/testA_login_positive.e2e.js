@@ -80,3 +80,17 @@ describe('7. Validate "https://the-internet.herokuapp.com/secure" is active', ()
     });
 });
 
+describe('8. Logout test', () => {
+
+    it('Should logout and verify Login button', async () => {
+
+        // Click Logout button
+        await $(`//i[@class='icon-2x icon-signout']`).click();
+
+        // // Verify Login button exists
+        await expect(SecurePage.flashAlert).toHaveTextContaining(
+            'You logged out of the secure area!')
+
+    });
+
+});
