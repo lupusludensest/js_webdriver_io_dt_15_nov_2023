@@ -9,7 +9,9 @@ async function main() {
     } else {
         console.log('Garfield not found');
     }
+
     console.log(response.data);
+    console.log(response.statusText);
 }
 
 main();

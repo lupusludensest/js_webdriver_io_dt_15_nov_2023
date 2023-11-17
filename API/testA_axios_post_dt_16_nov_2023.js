@@ -17,6 +17,7 @@ async function main() {
         });
 
         console.log(response.data);
+        console.log(response.statusText);
 
     } catch (error) {
         console.error(error);
