@@ -1,6 +1,6 @@
 # js_webdriver_io_dt_15_nov_2023
 
-## To install node.js
+# To install node.js
 
 To run: ```node --version```
 
@@ -26,7 +26,7 @@ WDIO mtehods:
 .getPageSource()
 .axios.get('URL') Axios has to be installed: npm install axios
 
-In testA_login_positive.e2e.js there is a code:
+In testA.login_positive.e2e.js there is a code:
 
         ```it('Validate "https://the-internet.herokuapp.com/secure" is active', async () => {
 
@@ -35,7 +35,7 @@ In testA_login_positive.e2e.js there is a code:
 
         const res = await axios.get('https://the-internet.herokuapp.com/secure');
         expect(res.status).toEqual(200)
-    });```
+        });```
         
 ## Allure
 
@@ -44,7 +44,7 @@ To run: allure open
 To run: in framework is upgraded:
 To run: in wdio.conf.js there is a code which helps to make screenshot if step failed:    
 reporters: 
-```[['allure', {
+    ```[['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: false, # <- here
@@ -52,14 +52,12 @@ reporters:
     
 ## In wdio.conf.js there is a code making screenshot if step failed:
 
-```afterTest: function(test, context, { error, result, duration, passed, retries }) {
+    ```afterTest: function(test, context, { error, result, duration, passed, retries }) {
 
         if (error) {
             browser.takeScreenshot();
         }
     }```
- 
+
 ## How to make a requirements.txt
 To run: npm ls --prod --depth=0 > requirements.txt
-
-
