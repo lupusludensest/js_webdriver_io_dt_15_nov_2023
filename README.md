@@ -16,15 +16,27 @@ To run: npx wdio run ./wdio.conf.js  or npm run wdio
 
 All WDIO commands are unsyncronized and need to be properly handled using async/await
 
-WDIO mtehods:
+WDIO methods:
+
 .open()
+
 .login()
+
 .flashAlert()
+
 .toBeExisting()
+
 .toHaveTextContaining
+
 .getText()
+
 .getPageSource()
-.axios.get('URL') Axios has to be installed: npm install axios
+
+.axios.get('URL') 
+
+Axios has to be installed: 
+
+To run: npm install axios
 
 In testA.login_positive.e2e.js there is a code:
 
@@ -40,10 +52,13 @@ In testA.login_positive.e2e.js there is a code:
 ## Allure
 
 To run: allure generate allure-results --clean
+
 To run: allure open
-To run: in framework is upgraded:
-To run: in wdio.conf.js there is a code which helps to make screenshot if step failed:    
-reporters: 
+
+In framework is upgraded:
+
+In wdio.conf.js there is a code which helps to make screenshot if step failed: 
+
     ```[['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
@@ -55,7 +70,7 @@ reporters:
     ```afterTest: function(test, context, { error, result, duration, passed, retries }) {
 
         if (error) {
-            browser.takeScreenshot();
+            browser.takeScreenshot(); # <- here
         }
     }```
 
