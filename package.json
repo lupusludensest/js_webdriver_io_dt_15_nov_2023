@@ -13,7 +13,7 @@
     "scripts": {
         "wdio": "wdio run wdio.conf.js",
         "allure": "allure generate allure-results --clean && allure open",
-        "api": "wdio run ./wdio.conf.js --spec test/specs/specA.api.js"
+        "api": "wdio run ./wdio.conf.js --spec API/specs/specA.api.js"
     },
     "dependencies": {
         "allure-commandline": "^2.24.1",

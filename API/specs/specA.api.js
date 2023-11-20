@@ -1,4 +1,4 @@
-const post_request = require('../../API/testA_axios_post_dt_16_nov_2023');
+const post_request = require('../testA_axios_post_dt_16_nov_2023');
 
 describe ('Post request', async () => {
     it('Post request', async () => {
