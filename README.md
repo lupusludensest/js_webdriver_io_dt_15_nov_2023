@@ -38,7 +38,7 @@ Axios has to be installed:
 
 To run: npm install axios
 
-In testA.login_positive.e2e.js there is a code:
+In testA.login.positive.e2e.js there is a code:
 
         ```it('Validate "https://the-internet.herokuapp.com/secure" is active', async () => {
 
@@ -76,3 +76,11 @@ In wdio.conf.js there is a code which helps to make screenshot if step failed:
 
 ## How to make a requirements.txt
 To run: npm ls --prod --depth=0 > requirements.txt
+
+## After I upgraded "scripts" in package.json I can run short CLI commands:
+
+To run: npm run wdio 
+
+To run: npm run allure
+
+To run: npm run api
