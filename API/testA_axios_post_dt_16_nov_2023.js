@@ -2,22 +2,20 @@
 
 const axios = require('axios');
 
-async function main() {
+async function post_request(data) {
 
     try {
         const response = await axios({
             method: 'POST',
             url: 'cats',
-            data: {
-                name: 'Garfield',
-                age: 3
-            },
+            data,
             baseURL: 'https://my-api.com',
-            timeout: 1000
+            timeout: 4000
         });
 
-        console.log(response.data);
-        console.log(response.statusText);
+        // console.log(response.data);
+        // console.log(response.statusText);
+        return response
 
     } catch (error) {
         console.error(error);
@@ -25,4 +23,8 @@ async function main() {
 
 }
 
-main();
+module.exports = post_request
+
+
+
+

@@ -5,10 +5,20 @@ const axios = require("axios");
 
 describe('On login page user with valid username', () => {
 
-    it('is able to login', async () => {
+    beforeEach(async () => {
         await LoginPage.open()
 
         await LoginPage.login('tomsmith', 'SuperSecretPassword!')
+    } )
+
+    // afterEach(async () => {
+    //     await $("//a[@class='button secondary radius']").click();
+    // })
+
+    it('is able to login', async () => { // use ".only" after "it" if you want run this only
+        // await LoginPage.open()
+        //
+        // await LoginPage.login('tomsmith', 'SuperSecretPassword!')
         await expect(SecurePage.flashAlert).toBeExisting()
         await expect(SecurePage.flashAlert).toHaveTextContaining(
             'You logged into a secure area!')
@@ -67,9 +77,14 @@ describe('On login page user with valid username', () => {
         // Click Logout button
         await $(`//i[@class='icon-2x icon-signout']`).click();
 
-        // // Verify Login button exists
+        // Verify Login button exists
         await expect(SecurePage.flashAlert).toHaveTextContaining(
             'You logged out of the secure area!')
+
+        // // Login last time
+        // await LoginPage.open()
+        //
+        // await LoginPage.login('tomsmith', 'SuperSecretPassword!')
 
     });
 
