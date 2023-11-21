@@ -1,10 +1,11 @@
-const get_request = require('../testB_axios_get_dt_16_nov_2023');
+const get_request_b = require('../testB_axios_get_dt_16_nov_2023');
 
-describe ('Get request', async () => {
-    it('Get request', async () => {
-        const response = await get_request({
+describe ('Get request B', async () => {
+    it('Get request B', async () => {
+        const response = await get_request_b({
 
         })
-        expect(response.statusText).toEqual('OK')
+        expect(response.statusText).toEqual('OK');
+        expect(response.status).toEqual(200);
     })
 })

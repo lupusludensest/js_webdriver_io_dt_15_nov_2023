@@ -2,7 +2,7 @@
 
 const axios = require('axios');
 
-async function post_request(data) {
+async function post_request_a(data) {
 
     try {
         const response = await axios({
@@ -23,7 +23,7 @@ async function post_request(data) {
 
 }
 
-module.exports = post_request
+module.exports = post_request_a
 
 
 

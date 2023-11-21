@@ -2,7 +2,7 @@
 
 const axios = require('axios');
 
-async function get_request(data) {
+async function get_request_b(data) {
     try {
         const response = await axios({
             method: 'GET',
@@ -21,4 +21,4 @@ async function get_request(data) {
     }
 }
 
-module.exports = get_request
+module.exports = get_request_b

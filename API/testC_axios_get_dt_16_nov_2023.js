@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-async function get_request() {
+async function get_request_c() {
 
     const response = await axios.get('https://my-api.com/cats/');
 
@@ -15,4 +15,4 @@ async function get_request() {
     return response
 }
 
-module.exports = get_request
+module.exports = get_request_c
