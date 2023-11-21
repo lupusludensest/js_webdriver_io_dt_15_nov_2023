@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-async function main() {
+async function get_request() {
 
     const response = await axios.get('https://my-api.com/cats/');
 
@@ -10,8 +10,9 @@ async function main() {
         console.log('Garfield not found');
     }
 
-    console.log(response.data);
-    console.log(response.statusText);
+    // console.log(response.data);
+    // console.log(response.statusText);
+    return response
 }
 
-main();
+module.exports = get_request
