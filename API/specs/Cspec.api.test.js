@@ -1,4 +1,4 @@
-const get_request_c = require('../testC_axios_get_dt_16_nov_2023');
+const get_request_c = require('../Ctest_axios_get_dt_16_nov_2023');
 
 describe('Get request C', async () => {
     it('Get request C', async () => {

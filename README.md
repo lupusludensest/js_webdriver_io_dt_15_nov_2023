@@ -38,7 +38,7 @@ Axios has to be installed:
 
 To run: npm install axios
 
-In testA.login.positive.e2e.js there is a code:
+In Atest.login.positive.e2e.js there is a code:
 
         ```it('Validate "https://the-internet.herokuapp.com/secure" is active', async () => {
 

@@ -1,4 +1,4 @@
-const get_request_b = require('../testB_axios_get_dt_16_nov_2023');
+const get_request_b = require('../Btest_axios_get_dt_16_nov_2023');
 
 describe ('Get request B', async () => {
     it('Get request B', async () => {
