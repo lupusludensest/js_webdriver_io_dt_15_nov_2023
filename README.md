@@ -84,3 +84,20 @@ To run: npm run wdio
 To run: npm run allure
 
 To run: npm run api
+
+## To take data from DevChromeTool: fill list arr1 by the substrings
+
+To run: var arr1 = [] or const arr1 = []
+
+To run: $$(' ul li a').forEach(function(el) {arr1.push(el.href.substring(34))})
+
+To run: console.log(arr1)
+
+## To take data from DevChromeTool: fill list arr2 by the strings
+
+To run: var arr2 = [] or const arr2 = []
+
+To run: $$(' ul li a').forEach(function(el) {arr2.push(el.text)})
+
+To run: console.log(arr2)
+
